@@ -26,6 +26,7 @@ class NewThreadedTask(threading.Thread):
         while params['job_status'] != 'Stop':
             # res_dict - tmp dictionary for storing response and status
             res_dict = {}
+            # get random JSON object from predefined list
             event = random.choice(events)
             try:
                 # send JSON object to a specific HTTP API endpoint
