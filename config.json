@@ -1,0 +1,8 @@
+{
+    "wait_time": 3,
+    "requests_endpoint": "http://127.0.0.1:8000/events/",
+    "events_file": "events.json",
+    "job_status": "Ready",
+    "job_msg": "",
+    "response_limit": 500
+}
