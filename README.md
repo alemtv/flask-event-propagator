@@ -10,6 +10,8 @@ Here are the available configuration options:
 * events_file: The location of the file containing the predefined JSON objects (events) that can be sent.
 
 # Installation
-```sh
-git clone 
+```bash
+git clone https://github.com/saniokas/flask-event-propagator.git
+pip install -r requirements.txt
+flask run -h 127.0.0.1 -p 5000
 ```
